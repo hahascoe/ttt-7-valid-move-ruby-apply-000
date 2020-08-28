@@ -5,6 +5,7 @@ def valid_move?(user,board)
   if user.between'(0,8)'
     if position_taken
     puts "The space is already filled, try again."
+  end
   elsif ! position_taken
     puts "Nice move!"
   else 
