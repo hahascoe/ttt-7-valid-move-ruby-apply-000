@@ -5,7 +5,7 @@ def valid_move?(user)
     if position_taken
     puts "The space is already filled, try again."
   elsif ! position_taken
-    puts "Nice move"
+    puts "Nice move!"
   else 
     puts "Invaild board postion, try again"
   end
