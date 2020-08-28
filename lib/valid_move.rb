@@ -1,5 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(user,board)
+  puts "Enter 1-9 to pick a space on the baord"
   user= gets.strip 
   if user.between(0,8)
     if position_taken
