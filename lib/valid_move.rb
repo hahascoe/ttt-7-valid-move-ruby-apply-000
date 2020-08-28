@@ -2,7 +2,7 @@
 def valid_move?(user,board)
   puts "Enter 1-9 to pick a space on the baord!"
   user= gets.strip 
-  if user.between (0,8)
+  if user.between'(0,8)'
     if position_taken
     puts "The space is already filled, try again."
   elsif ! position_taken
