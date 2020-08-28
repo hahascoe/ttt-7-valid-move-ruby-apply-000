@@ -10,6 +10,7 @@ def valid_move?(user,board)
     puts "Nice move!"
   else 
     puts "Invaild board postion, try again"
+  end
 end 
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
