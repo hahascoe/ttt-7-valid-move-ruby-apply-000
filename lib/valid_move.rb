@@ -1,7 +1,7 @@
 # code your #valid_move? method here
 def valid_move?(user,board)
   user= gets.strip 
-  if user.between (0,8)
+  if user.between(0,8)
     if position_taken
     puts "The space is already filled, try again."
   elsif ! position_taken
