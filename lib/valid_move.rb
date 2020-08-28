@@ -10,4 +10,5 @@ end
 def position_taken?(board, index)
  !(board[index] == " " || board[index] == "" || board[index] == nil)
 end
+
 valid_move?(number_entered, ttt_board)
