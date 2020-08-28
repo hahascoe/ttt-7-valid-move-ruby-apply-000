@@ -2,10 +2,10 @@
 def valid_move?(user)
   user= gets.strip 
   if user == 0,1,2,3,4,5,6,7,8
-  elsif position_taken
+    if position_taken
     puts "The space is already filled, try again."
-  else 
-    puts "Invaild board postion, try again"
+    else 
+      puts "Invaild board postion, try again"
   end
 end 
 
