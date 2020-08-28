@@ -4,7 +4,7 @@ def valid_move?
     puts "The space is already filled, try again."
   elsif user= gets.strip 
     if user == 0,1,2,3,4,5,6,7,8
-  else 
+    else 
     puts "Invaild board postion, try again"
 
 
