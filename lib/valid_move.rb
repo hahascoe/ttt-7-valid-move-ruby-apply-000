@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move?(user,baord)
+def valid_move?(user,board)
   user= gets.strip 
   if user.between 8 
     if position_taken
