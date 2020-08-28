@@ -2,6 +2,7 @@
 def valid_move?
   if position_taken
     puts "The space is already filled, try again."
+    
 
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
